@@ -5,4 +5,4 @@
         name: nginx
         state: present
     - name: start nginx
-      shell: /usr/bin/bash nginx
+      shell: /usr/sbin/nginx
